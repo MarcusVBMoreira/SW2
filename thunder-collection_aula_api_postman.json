@@ -1,0 +1,107 @@
+{
+    "info": {
+        "_postman_id": "fba01a2c-6c12-4a3e-abaf-0aea44d427fa",
+        "name": "aula_api",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "status",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/sw2/aula_api/app/status/",
+                    "path": [
+                        "sw2",
+                        "aula_api",
+                        "app",
+                        "status"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_dados",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/sw2/aula_api/app/get_all_data/",
+                    "path": [
+                        "sw2",
+                        "aula_api",
+                        "app",
+                        "get_all_data"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_nomes",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/sw2/aula_api/app/get_all_names/",
+                    "path": [
+                        "sw2",
+                        "aula_api",
+                        "app",
+                        "get_all_names"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_total_registros",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/sw2/aula_api/app/get_total_records/",
+                    "path": [
+                        "sw2",
+                        "aula_api",
+                        "app",
+                        "get_total_records"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        },
+        {
+            "name": "get_um_cliente",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "localhost/sw2/aula_api/app/get_um_cliente?id=5",
+                    "query": [
+                        {
+                            "key": "id",
+                            "value": "5"
+                        }
+                    ],
+                    "variable": [],
+                    "path": [
+                        "sw2",
+                        "aula_api",
+                        "app",
+                        "get_um_cliente"
+                    ],
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        }
+    ]
+}

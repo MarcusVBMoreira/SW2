@@ -22,7 +22,7 @@
                 'api_version' => API_VERSION,
                 'time_response' => time(),
                 'data_atual' => date('Y-m-d H:i'),
-                'data' => $data
+                'dados' => $data
             ]);
 
         }
